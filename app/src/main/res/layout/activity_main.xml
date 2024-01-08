@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Any Product Check"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <CheckBox
+        android:id="@+id/item1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Samsung"
+        android:textSize="18sp"
+        android:layout_margin="10dp"/>
+    <CheckBox
+        android:id="@+id/item2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I Phone"
+        android:textSize="18sp"
+        android:layout_margin="10dp"/>
+    <CheckBox
+        android:id="@+id/item3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nokia"
+        android:textSize="18sp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/orderbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="order now"
+        android:layout_margin="10dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvresult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="5dp"/>
+
+
+
+</LinearLayout>
